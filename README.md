@@ -26,11 +26,11 @@ Multi-label classification: предсказание вероятностей о
 - **SWA top-5** — среднее 5 лучших чекпоинтов
 
 ### LightGBM L7 (OOF 0.8348)
-- Optuna HPO (30 trials): lr=0.050, leaves=34, colsample=20%
+- Optuna HPO (30 trials), лучшие параметры вшиты в скрипт: lr=0.050, leaves=34, colsample=20%
 - MultilabelStratifiedKFold, 41 бинарных классификатора × 5 фолдов
 
 ### PyBoost (OOF 0.8362)
-- SketchBoost (joint multi-output), Optuna HPO
+- SketchBoost (joint multi-output), Optuna HPO (25 trials), лучшие параметры вшиты
 - Требует NVIDIA GPU (cupy + py-boost)
 
 ### LGBM L8 — cross-target meta (OOF 0.8433)
