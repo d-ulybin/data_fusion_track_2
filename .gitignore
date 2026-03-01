@@ -1,0 +1,9 @@
+Data/
+features/
+checkpoints_*/
+blend_artifacts/
+stacking_artifacts/
+submissions/
+__pycache__/
+*.pyc
+.DS_Store
