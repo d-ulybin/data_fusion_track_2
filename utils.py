@@ -5,7 +5,7 @@ from scipy.stats import rankdata
 from sklearn.metrics import roc_auc_score
 
 SEED = 1234
-DATA_DIR = "Data/"
+DATA_DIR = "/kaggle/input/datafusion26/"
 N_FOLDS = 5
 
 
